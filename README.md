@@ -6,7 +6,7 @@
 
 **Research-quality implementation** of novel KV cache eviction policies for efficient long-context LLM inference. This project implements and comprehensively evaluates attention-score-based eviction (H2O), semantic clustering, and learned eviction policies to achieve **50-87.5% KV cache compression** while maintaining generation quality.
 
-## 🎯 Overview
+## Overview
 
 This repository contains a complete experimental framework for evaluating KV cache compression strategies, addressing the critical memory bottleneck in long-context language model inference. Through **55 experimental configurations** across 5 setups, we demonstrate that attention-score-based eviction (H2O) achieves superior compression-performance trade-offs compared to baseline methods.
 
@@ -17,7 +17,7 @@ This repository contains a complete experimental framework for evaluating KV cac
 - **Computational Overhead**: H2O adds only **10.33% overhead**, making it practical for real-time deployment
 - **Document Type Stability**: Consistent performance across narrative, code, and QA domains
 
-## 🔬 Research Questions
+## Research Questions
 
 This work addresses five key research questions:
 
@@ -27,7 +27,7 @@ This work addresses five key research questions:
 4. **RQ4**: How do different document types (code, narrative, QA) affect optimal eviction strategies?
 5. **RQ5**: What is the trade-off between eviction overhead and memory savings?
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -69,7 +69,7 @@ outputs = model.generate(
 )
 ```
 
-## 📊 Experimental Results
+## Experimental Results
 
 ### Compression Performance
 
@@ -102,7 +102,7 @@ outputs = model.generate(
 
 *Note: Perplexity is not appropriate for QA evaluation; F1/EM metrics recommended*
 
-## 🏗️ Architecture
+## Architecture
 
 ### Implemented Cache Strategies
 
@@ -120,7 +120,7 @@ outputs = model.generate(
 - **Comprehensive evaluation**: Perplexity, compression ratio, overhead analysis
 - **Visualization**: Attention pattern analysis, cluster quality metrics
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 kv-cache-compression/
@@ -143,7 +143,7 @@ kv-cache-compression/
         └── ablation_study.json
 ```
 
-## 🔬 Experimental Setups
+## Experimental Setups
 
 The notebook contains 5 comprehensive experimental setups:
 
@@ -160,7 +160,7 @@ The notebook contains 5 comprehensive experimental setups:
 - **Analysis D: Attention Pattern Visualization** - Attention sink phenomenon analysis
 - **Analysis E: Cluster Quality Metrics** - Silhouette score correlation with perplexity
 
-## 📈 Key Findings
+## Key Findings
 
 ### 1. H2O Outperforms at Aggressive Compression
 - At 8x compression, H2O-256-80/20 achieves **19.23 perplexity** vs 44.38 for SlidingWindow
@@ -183,7 +183,7 @@ The notebook contains 5 comprehensive experimental setups:
 - H2O adds only 10.33% overhead despite attention tracking
 - SlidingWindow has minimal overhead (0.31%) but poor quality at high compression
 
-## 🛠️ Implementation Details
+## Implementation Details
 
 ### Model and Environment
 
@@ -200,7 +200,7 @@ The system uses `output_attentions=True` during generation to track attention we
 
 Uses `torch.index_select` with sorted indices to avoid creating unnecessary tensor copies during eviction operations.
 
-## 📚 Citation
+## Citation
 
 If you use this code in your research, please cite:
 
@@ -213,27 +213,27 @@ If you use this code in your research, please cite:
 }
 ```
 
-## 📖 References
+## References
 
 - [H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models](https://arxiv.org/abs/2306.14048)
 - [LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding](https://github.com/THUDM/LongBench)
 - [TinyLlama: An Open-Source Small Language Model](https://github.com/jzhang38/TinyLlama)
 
-## 🤝 Contributing
+## Contributing
 
 This is a research project for a Master's thesis. Contributions, issues, and pull requests are welcome! Please feel free to open an issue for bugs or feature requests.
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👥 Authors
+## Authors
 
 - **Suhas Reddy Baluvanahally Ramananda** - Northeastern University
 - **Gautam Raju** - Northeastern University  
 - **Namratha Tiptur Manjunath** - Syracuse University
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - HuggingFace for the Transformers library
 - The H2O paper authors for the attention-score-based eviction concept
