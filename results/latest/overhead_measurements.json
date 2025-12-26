@@ -1,0 +1,26 @@
+{
+  "SlidingWindow": {
+    "avg_eviction_time_ms": 0.022,
+    "std_eviction_time_ms": 0.007,
+    "overhead_percent": 0.36,
+    "tokens_per_sec": 29408.5
+  },
+  "LRU": {
+    "avg_eviction_time_ms": 0.432,
+    "std_eviction_time_ms": 0.383,
+    "overhead_percent": 6.76,
+    "tokens_per_sec": 28692.9
+  },
+  "H2O": {
+    "avg_eviction_time_ms": 0.618,
+    "std_eviction_time_ms": 0.021,
+    "overhead_percent": 10.28,
+    "tokens_per_sec": 30509.6
+  },
+  "SemanticCluster": {
+    "avg_eviction_time_ms": 293.085,
+    "std_eviction_time_ms": 23.974,
+    "overhead_percent": 97.82,
+    "tokens_per_sec": 612.4
+  }
+}

@@ -1,0 +1,10 @@
+name,setup_id,cache_type,budget,heavy_ratio,recent_ratio,num_clusters,sequence_length,perplexity,perplexity_std,num_samples,compression_ratio,peak_memory_gb,evaluation_mode,timestamp
+SlidingWindow-256-comprehensive,setup_5_comprehensive,SlidingWindow,256,,,,2048,1054.43,809.33,14,8.0,,ultra_thorough,2025-12-25T20:09:02
+SlidingWindow-512-comprehensive,setup_5_comprehensive,SlidingWindow,512,,,,2048,18.71,5.22,14,4.0,,ultra_thorough,2025-12-25T20:09:02
+LRU-256-comprehensive,setup_5_comprehensive,LRU,256,,,,2048,26.69,7.7,14,8.0,,ultra_thorough,2025-12-25T20:09:02
+LRU-512-comprehensive,setup_5_comprehensive,LRU,512,,,,2048,18.71,5.22,14,4.0,,ultra_thorough,2025-12-25T20:09:02
+H2O-256-50/50-comprehensive,setup_5_comprehensive,H2O,256,0.5,0.5,,2048,31.5,14.31,14,8.0,,ultra_thorough,2025-12-25T20:09:02
+H2O-512-50/50-comprehensive,setup_5_comprehensive,H2O,512,0.5,0.5,,2048,18.71,5.22,14,4.0,,ultra_thorough,2025-12-25T20:09:02
+H2O-256-70/30-comprehensive,setup_5_comprehensive,H2O,256,0.7,0.3,,2048,29.98,11.89,14,8.0,,ultra_thorough,2025-12-25T20:09:02
+SemanticCluster-256-K16-comprehensive,setup_5_comprehensive,SemanticCluster,256,,,16.0,2048,1221.33,1120.76,14,8.0,,ultra_thorough,2025-12-25T20:09:02
+SemanticCluster-512-K32-comprehensive,setup_5_comprehensive,SemanticCluster,512,,,32.0,2048,18.71,5.22,14,4.0,,ultra_thorough,2025-12-25T20:09:02

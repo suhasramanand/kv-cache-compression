@@ -1,0 +1,13 @@
+name,setup_id,cache_type,budget,heavy_ratio,recent_ratio,num_clusters,sequence_length,perplexity,compression_ratio,peak_memory_gb,timestamp
+SemanticCluster-256-K8,setup_3_semantic,SemanticCluster,256,,,8,2048,12.88,8.0,,2025-12-25T20:00:28
+SemanticCluster-256-K16,setup_3_semantic,SemanticCluster,256,,,16,2048,12.88,8.0,,2025-12-25T20:00:28
+SemanticCluster-256-K32,setup_3_semantic,SemanticCluster,256,,,32,2048,12.88,8.0,,2025-12-25T20:00:28
+SemanticCluster-256-K64,setup_3_semantic,SemanticCluster,256,,,64,2048,12.88,8.0,,2025-12-25T20:00:28
+SemanticCluster-512-K8,setup_3_semantic,SemanticCluster,512,,,8,2048,12.88,4.0,,2025-12-25T20:00:28
+SemanticCluster-512-K16,setup_3_semantic,SemanticCluster,512,,,16,2048,12.88,4.0,,2025-12-25T20:00:28
+SemanticCluster-512-K32,setup_3_semantic,SemanticCluster,512,,,32,2048,12.88,4.0,,2025-12-25T20:00:28
+SemanticCluster-512-K64,setup_3_semantic,SemanticCluster,512,,,64,2048,12.88,4.0,,2025-12-25T20:00:28
+SemanticCluster-1024-K8,setup_3_semantic,SemanticCluster,1024,,,8,2048,12.88,2.0,,2025-12-25T20:00:28
+SemanticCluster-1024-K16,setup_3_semantic,SemanticCluster,1024,,,16,2048,12.88,2.0,,2025-12-25T20:00:28
+SemanticCluster-1024-K32,setup_3_semantic,SemanticCluster,1024,,,32,2048,12.88,2.0,,2025-12-25T20:00:28
+SemanticCluster-1024-K64,setup_3_semantic,SemanticCluster,1024,,,64,2048,12.88,2.0,,2025-12-25T20:00:28

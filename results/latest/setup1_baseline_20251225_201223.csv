@@ -1,0 +1,9 @@
+name,setup_id,cache_type,budget,heavy_ratio,recent_ratio,num_clusters,sequence_length,perplexity,compression_ratio,peak_memory_gb,timestamp
+SlidingWindow-256,setup_1_baseline,SlidingWindow,256,,,,2048,44.38,8.0,,2025-12-25T20:12:23
+SlidingWindow-512,setup_1_baseline,SlidingWindow,512,,,,2048,17.12,4.0,,2025-12-25T20:12:23
+SlidingWindow-1024,setup_1_baseline,SlidingWindow,1024,,,,2048,17.12,2.0,,2025-12-25T20:12:23
+SlidingWindow-2048,setup_1_baseline,SlidingWindow,2048,,,,2048,17.12,1.0,,2025-12-25T20:12:23
+LRU-256,setup_1_baseline,LRU,256,,,,2048,18.96,8.0,,2025-12-25T20:12:23
+LRU-512,setup_1_baseline,LRU,512,,,,2048,17.12,4.0,,2025-12-25T20:12:23
+LRU-1024,setup_1_baseline,LRU,1024,,,,2048,17.12,2.0,,2025-12-25T20:12:23
+LRU-2048,setup_1_baseline,LRU,2048,,,,2048,17.12,1.0,,2025-12-25T20:12:23

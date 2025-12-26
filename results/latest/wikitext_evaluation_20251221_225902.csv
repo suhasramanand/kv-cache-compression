@@ -1,0 +1,7 @@
+name,budget,per_layer,peak_memory_gb,compression_ratio,perplexity,heavy_ratio,recent_ratio
+SlidingWindow-512,512,True,0.8,4.0,,,
+SlidingWindow-1024,1024,True,0.8,2.0,,,
+LRU-512,512,True,0.8,4.0,,,
+H2O-512-50/50,512,True,0.8,4.0,,0.5,0.5
+H2O-256-70/30,256,True,0.8,8.0,,0.7,0.3
+H2O-1024-30/70,1024,True,0.8,2.0,,0.3,0.7
