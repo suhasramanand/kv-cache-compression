@@ -44,6 +44,10 @@ ENV/
 .DS_Store
 Thumbs.db
 
+# Model cache (large files, don't push)
+model_cache/
+checkpoints/
+
 # Results (optional - uncomment if you don't want to track results)
 # results/
 # results/latest/
